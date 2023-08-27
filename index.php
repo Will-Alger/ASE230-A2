@@ -24,10 +24,17 @@
 
 </head>
 
+<!-- 
+
+	Name: William Alger
+	Class: ASE 230
+	Date: 8/27/2023
+	Type: Assignment 2
+
+-->
+
 <?php
 require_once 'data.php';
-//Disclaimer:
-//Some of the images used in this project are generated using Midjourney AI. They do not represent real people or entities but are artificially created for illustrative purposes.
 ?>
 
 

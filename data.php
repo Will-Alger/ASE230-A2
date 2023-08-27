@@ -1,10 +1,14 @@
 <?php
 
 /*
-    DISCLAIMER:
-    Some of the dummy data included in this file was generated with assistance 
-    from OpenAI's language model, ChatGPT. The information is intended solely 
-    for placeholder purposes and does not reflect real individuals, events, or institutions.
+|--------------------------------------------------------------------------
+| Disclaimer
+|--------------------------------------------------------------------------
+|
+| Some of the dummy data for this project were generated using ChatGPT, an AI developed by OpenAI.
+| Some of the images associated with this project were created using Midjourney. 
+| Please note that these are used for demonstration and testing purposes only.
+|
 */
 
 $data = array(

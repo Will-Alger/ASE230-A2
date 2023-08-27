@@ -1,29 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- 
-
-	Name: William Alger
-	Class: ASE 230
-	Date: 8/26/2023
-	Type: Assignment 1
-
-	Comments:
-
-	I replaced a lot of the repeated elements with php for-loops. Assign the description at the top and they are rendered at the bottom.
-	I thought this made the page a lot more dynamic, and easier to change information later on.
-
-	Usage of chatbots:
-
-	I used GPT-4 a little bit to speed up the tedious process of making the arrays from information needed in the HTML components.
-	example converation -> create a key-value array that contains a field for each description used in this <article>
-						-> OK, now keeping all of the original classes and formatting, use this array and PHP shorthand to loop through the descriptions and output the results
-
--->
-
 
 <?php
-
 require_once 'data.php';
 $person = $data[$_GET['id']]
 ?>
