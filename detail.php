@@ -102,12 +102,12 @@ $person = $data[$_GET['id']]
 														<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $technology ?></span></li>
 													<?php endforeach; ?>
 												</ul>
-											</div><!--//resume-timeline-item-desc-->
-										</article><!--//resume-timeline-item-->
+											</div>
+										</article>
 									<?php endforeach; ?>
-								</div><!--//resume-timeline-->
+								</div>
 							</div>
-						</section><!--//projects-section-->
+						</section>
 					</div>
 					<div class="col-lg-3">
 						<section class="resume-section skills-section mb-5">
@@ -184,9 +184,9 @@ $person = $data[$_GET['id']]
 									<?php endforeach; ?>
 								</ul>
 							</div>
-						</section><!--//interests-section-->
+						</section>
 					</div>
-				</div><!--//row-->
+				</div>
 				<section class="resume-section experience-section mb-5">
 					<h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Projects</h2>
 					<div class="row mt-4 justify-content-center">
@@ -204,8 +204,8 @@ $person = $data[$_GET['id']]
 						<?php endforeach; ?>
 					</div>
 			</div>
-			</section><!--//projects-section-->
-		</div><!--//resume-body-->
+			</section>
+		</div>
 		</div>
 	</article>
 	<footer class="footer text-center pt-2 pb-5">

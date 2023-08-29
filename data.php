@@ -100,7 +100,6 @@ $data = array(
                 'achievements' => array(
                     'Supported 30+ students in an upper-level computer science course in C++.',
                     'Developed and led interactive class workshops and live coding sessions, breaking down complex programming concepts in C++ into simplified, digestible explanations.',
-                    'Developed and led interactive class workshops and live coding sessions, breaking down complex programming concepts in C++ into simplified, digestible explanations.'
                 ),
                 'technologies' => array(
                     'C++'
