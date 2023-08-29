@@ -37,12 +37,10 @@
 require_once 'data.php';
 ?>
 
-
 <body>
 	<article class="resume-wrapper text-center position-relative">
 		<div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 			<h1 class="py-4 text-center">OUR AMAZING TEAM</h1>
-
 			<?php foreach ($data as $id => $person) : ?>
 				<header class="resume-header mt-4 pt-4 pt-md-0">
 					<div class="row">
@@ -66,14 +64,23 @@ require_once 'data.php';
 		</div>
 	</article>
 
-
 	<footer class="footer text-center pt-2 pb-5">
 		<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
 		<small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by
 			<?php
+			$names = array();
 			foreach ($data as $person) {
-				echo $person['personal_info']['name'] . ' ';
+				$names[] = $person['personal_info']['name'];
 			}
+
+			$last_name = array_pop($names);
+
+			if ($names) {
+				echo implode(', ', $names);
+				echo ', and ';
+			}
+
+			echo $last_name;
 			?>
 		</small>
 	</footer>
