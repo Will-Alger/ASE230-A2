@@ -31,6 +31,7 @@ $data = array(
                 "university_timeline" => "2020 - 2023",
                 "degree" => "BS in Computer Science"
             ),
+            // ... more degrees
         ),
         "skills" => array(
             "main" => array(
@@ -54,6 +55,7 @@ $data = array(
                 "title" => "Nightscout Foundation Scholarship",
                 "desc" => "Academic award towards students in STEM with diabetes"
             )
+            // ... more awards
         ),
         "languages" => array(
             "English", "Spanish (some)"
@@ -80,6 +82,7 @@ $data = array(
                 "img" => "assets\images\LFSR.png",
                 "link" => "https://github.com/Will-Alger/LFSR",
             )
+            // ... more projects
         ),
         "resume_items" => array(
             array(
@@ -117,6 +120,7 @@ $data = array(
                     'React/Redux', 'TypeScript',  'React', 'HTML/SASS'
                 ),
             )
+            // ... more resume items
         )
     ),
     "2" => array(
@@ -333,3 +337,73 @@ $data = array(
     ),
     // ... other people
 );
+
+/* 
+    TEMPLATE for person:
+
+        "1" => array(
+            "personal_info" => array(
+                "name" => "",
+                "job_title" => "",
+                "email" => "",
+                "phone_number" => "",
+                "summary" => "",
+                "img" => ""
+            ),
+            "links" => array(
+                "linked_in" => "",
+                "github" => ""
+            ),
+            "education" => array(
+                array(
+                    "university" => "",
+                    "university_timeline" => "",
+                    "degree" => ""
+                )
+                // ... more degrees
+            ),
+            "skills" => array(
+                "main" => array(
+                    "JavaScript" => "",
+                    "Node.js" => "",
+                    ...
+                    
+                ),
+                "other" => array(),
+            ),
+            "awards" => array(
+                array(
+                    "title" => "",
+                    "desc" => ""
+                )
+            ),
+            "languages" => array(),
+            "interests" => array(),
+            "projects" => array(
+                array(
+                    "title" => "",
+                    "desc" => "",
+                    "img" => "",
+                    "link" => "",
+                )
+            ),
+            "resume_items" => array(
+                array(
+                    'position' => '',
+                    'company' => '',
+                    'time' => '',
+                    'desc' => '',
+                    'achievements' => array(),
+                    'technologies' => array(),
+                )
+            )
+        )
+
+
+
+
+
+
+
+
+*/
